@@ -1,0 +1,74 @@
+*              {
+  margin: 0;
+  padding: 0;
+}
+
+.logo          {
+  margin-left: 150px;
+  position: relative;
+  top: 35px;
+  left: -70px;
+  float: left;
+}
+
+span           {
+  font-size: 45px;
+  position: relative;
+  top: 30px;
+  left: -50px;
+  color: white;
+  font-family: fantasy;
+  letter-spacing: 1px;
+}
+
+#nav ul li a   {
+  text-decoration:none;
+}
+
+#nav ul         {
+  list-style-type: none;
+}
+
+#nav ul li     {
+  float: left;
+  padding: 20px;
+}
+
+#nav           {
+  position: sticky;  
+  display: flex;
+  justify-content:left;
+}
+
+#index         {
+  font-size: 30px;
+  text-align: center;
+  position: relative;
+  top: 100px;
+}
+
+h1                 {
+  position: relative;
+  top: 100px;
+  color: hsl(0, 0%, 95%);
+  font-size: 40px;
+}
+
+html               {
+  background-image: linear-gradient(to right, white,hsl(0, 0%, 95%), hsl(0, 0%, 90%));
+}
+
+.Mainpage          {
+  height: 100vh;
+  background:rgba(0,0,0,0.3) url(images/VenturingAerialPhotographyHome.jpg);
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+a                  {
+  color: white;
+  position: relative;
+  top: 40px;
+  left: -70px;
+}
+
